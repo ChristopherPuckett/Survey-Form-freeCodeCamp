@@ -1,0 +1,53 @@
+** start of undefined **
+
+<!DOCTYPE="html">
+<link rel="stylesheet" href="styles.css">
+<head><h1 id="title">freeCodeCamp Survey Form</h1></head>
+  <body><p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <input id="name" type="text" placeholder="Enter your name" required></input>
+    <label id="name-label">Name</label>
+  <input id="email" type="email" placeholder="Enter your Email" required></input>
+    <label id="email-label">Email</label>
+  <input id="number" type="number" placeholder="Age" min="0" max="100"></input>
+    <label id="number-label">Age (optional)</label>
+  <p>What option best describes your current role?</p>
+ <select id="dropdown">
+    <option selected disabled>Select current role</option>
+    <option value="student">Student</option>
+    <option value="full time job">Full Time Job</option>
+    <option value="full time learner">Full Time Learner</option>
+    <option value="prefer not to say">Prefer not to say</option>
+    <option value="other">Other</option>
+  </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+  <input type="radio" value="rec1" name="recommend">Definitely</input>
+  <input type="radio" value="rec2" name="recommend">Maybe</input>
+  <input type="radio" value="rec3" name="recommend">Not sure</input>
+<p>What would you like to see improved? (Check all that apply)</p>
+  <input type="checkbox" value="check1">Front-end projects</input>
+  <input type="checkbox" value="check2">Back-end projects</input>
+  <input type="checkbox" value="check3">Data Visualization</input>
+  <input type="checkbox" value="check4">Challenges</input>
+  <input type="checkbox" value="check5">Open Source Community</input>
+  <input type="checkbox" value="check6">Gitter help videos</input>
+  <input type="checkbox" value="check7">Videos</input>
+  <input type="checkbox" value="check8">City Meetups</input>
+  <input type="checkbox" value="check9">Wiki</input>
+  <input type="checkbox" value="check10">Forum</input>
+  <input type="checkbox" value="check11">Additional Courses</input>
+  <p>Any comments or suggestions?</p>
+<textarea placeholder="Enter your comment here..."></textarea>
+<button id="submit">Submit</button>
+  </form>
+</body>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
